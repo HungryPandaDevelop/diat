@@ -1,0 +1,21 @@
+section.advantages__section
+  .main-full
+    h2 Преимущества
+  .main-grid
+    .advantages__section__item.advantages__section__item__cell--1
+      .advantages__section__item__content
+        h3 СТАБИЛЬНОСТЬ
+        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui deleniti debitis, error minima nam quod. Corrupti dignissimos facere quos, enim neque quae consequuntur labore molestiae dolor dicta. Neque, ratione sapiente!
+      .advantages__section__img
+        img(src="../images/temp/adv-1.jpg", alt="")
+        .advantages__section__border
+      h3 БЕЗОПАСНОСТЬ
+    each val,index in ["СТАБИЛЬНОСТЬ","СОВРЕМЕННОСТЬ","УНИВЕРСАЛЬНОСТЬ"]
+      .advantages__section__item(class="advantages__section__item__cell--"+(index+2))
+        .advantages__section__item__content
+          h3= val
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui deleniti debitis, error minima nam quod. Corrupti dignissimos facere quos, enim neque quae consequuntur labore molestiae dolor dicta. Neque, ratione sapiente!
+        .advantages__section__img
+          img(src="../images/temp/adv-"+(index+2)+".jpg", alt="")
+          .advantages__section__border
+        h3= val 

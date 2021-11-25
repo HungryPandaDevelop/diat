@@ -1,0 +1,153 @@
+@import "sourse/default/scss-include/_fontSize";
+@import "sourse/default/scss-include/_colors";
+@import "sourse/default/scss-include/_mixins";
+
+/*-----fonts-----*/
+
+@import "sourse/default/_fonts.scss";
+
+/*-----fonts-----*/
+
+/*-----defaul-----*/
+
+@import "sourse/default/_default.scss";
+
+/*-----defaul-----*/
+
+
+/*-----btns-----*/
+
+@import "sourse/default/_btns.scss";
+
+/*-----btns-----*/
+
+/*-----forms-----*/
+
+@import "sourse/default/_forms.scss";
+
+/*-----forms-----*/
+
+/*-----popup-form-----*/
+
+@import "sourse/default/_popup-form.scss";
+
+/*-----popup-form-----*/
+
+/*-----header-----*/
+
+@import "sourse/default/_header.scss";
+
+/*-----header-----*/
+
+/*-----footer-----*/
+
+@import "sourse/default/_footer.scss";
+
+/*-----footer-----*/
+
+/*-----mobile-menu-----*/
+
+@import "sourse/default/_mobile-menu.scss";
+
+/*-----mobile-menu-----*/
+
+/*-----slider-owl-----*/
+
+@import "sourse/default/_slider-owl.scss";
+
+/*-----slider-owl-----*/
+
+
+/*-----map-----*/
+
+@import "sourse/default/_map.scss";
+
+/*-----map-----*/
+
+/*-------------------home-start----*/
+
+/*--section-1-main-start*/
+
+@import "sourse/home/_main.scss";
+
+/*--section-1-main-end*/
+
+/*--section-2-consultation-start*/
+
+@import "sourse/home/_consultation.scss";
+
+/*--section-2-consultation-end*/
+
+/*--section-3-services-start*/
+
+@import "sourse/home/_services__section.scss";
+
+/*--section-3-services-end*/
+
+/*--section-4-services-start*/
+
+@import "sourse/home/_about.scss";
+
+/*--section-4-services-end*/
+
+/*--section-5-advantages-start*/
+
+@import "sourse/home/advantages__section.scss";
+
+/*--section-5-advantages-end*/
+
+/*--section-6-information-start*/
+
+@import "sourse/home/_information.scss";
+
+/*--section-6-information-end*/
+
+/*--section-7-projects-start*/
+
+@import "sourse/home/_projects__section.scss";
+
+/*--section-7-projects-end*/
+/*--section-8-partners-start*/
+
+@import "sourse/home/_partners__section.scss";
+
+/*--section-8-partners-end*/
+/*--section-9-news-start*/
+
+@import "sourse/home/_news.scss";
+
+/*--section-9-news-end*/
+/*--section-10-contacts-start*/
+
+@import "sourse/home/_contacts.scss";
+
+/*--section-10-contacts-end*/
+
+/*--------------------home-end----*/
+
+/*--------------------project-detail-start----*/
+
+@import "sourse/project-detail/_main.scss";
+
+@import "sourse/project-detail/_materials.scss";
+
+/*--------------------project-detail-end----*/
+
+/*--------------------reviews-page-start----*/
+
+@import "sourse/reviews-page/_reviews-default.scss";
+
+@import "sourse/reviews-page/_reviews-item.scss";
+
+@import "sourse/reviews-page/_reviews-form.scss";
+
+/*--------------------reviews-page-end----*/
+
+
+/*--------------------address-detail-start----*/
+@import "sourse/address-list/_main.scss";
+/*--------------------address-detail-end----*/
+
+/*--------------------address-detail-start----*/
+@import "sourse/address-detail/_main.scss";
+/*--------------------address-detail-end----*/

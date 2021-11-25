@@ -1,0 +1,258 @@
+/*-----414-----*/
+/*-----1680-----*/
+/*-----1680-----*/
+/*-----1440-----*/
+@media screen and (max-width: 1440px) {
+  .main-grid {
+    grid-column-gap: 25px;
+  }
+}
+/*-----1440-----*/
+/*-----1280-----*/
+@media screen and (max-width: 1280px) {
+  .main-grid {
+    grid-column-gap: 10px;
+    padding: 0 15px;
+  }
+
+  header .nav {
+    grid-column: 2/span 11;
+    font-size: 16px;
+  }
+
+  header .header-cell i {
+    margin-right: 10px;
+  }
+
+  header .logo-container {
+    grid-column: span 1;
+  }
+
+  header .feedback-container {
+    grid-column: span 3;
+  }
+
+  header .btn-container img {
+    margin-left: 15px;
+    width: 48px;
+  }
+
+  .section-about .about-col-4 {
+    grid-column: span 5;
+  }
+
+  .address-list__img {
+    width: 140px;
+  }
+}
+/*-----1280-----*/
+/*-----1024-----*/
+@media screen and (max-width: 1024px) {
+  .time_work-container.header-cell {
+    display: none;
+  }
+
+  .second-line {
+    display: none;
+  }
+
+  .stub {
+    height: 120px;
+  }
+
+  .hamburger-container.header-cell {
+    display: flex;
+  }
+
+  header .logo-container {
+    grid-column: span 2;
+  }
+
+  header .btn-container img {
+    display: none;
+  }
+
+  .poster-section .poster-bg {
+    width: 45%;
+    left: 55%;
+  }
+
+  .consultation-about {
+    grid-column: span 12;
+  }
+
+  .consultation-form {
+    grid-column: 1/span 12;
+  }
+
+  .project-detail-slider {
+    grid-column: span 12;
+    padding: 0 60px;
+  }
+
+  .project-detail-info {
+    grid-column: span 12;
+    padding: 0;
+  }
+
+  .materials-item-description {
+    padding: 30px;
+  }
+
+  .project-materials-item {
+    grid-column: span 6;
+  }
+
+  .news-list-item {
+    grid-gap: 0 15px;
+  }
+  .news-list-item .news-info {
+    grid-column: span 9;
+  }
+  .news-list-item .news-date {
+    margin: 0;
+  }
+  .news-list-item .news-text {
+    font-size: 13px;
+    grid-column: 4/span 9;
+  }
+
+  .contacts-info {
+    grid-column: span 6;
+    min-height: 560px;
+  }
+
+  .contacts-feedback {
+    grid-gap: 4px;
+  }
+
+  .contacts-feedback a {
+    text-decoration: none;
+    font-family: "medium";
+    font-size: 14px;
+  }
+
+  footer .footer-nav-container {
+    grid-column: span 6;
+  }
+
+  footer .footer-nav-container a:after {
+    display: none;
+  }
+}
+/*-----1024-----*/
+/*-----768-----*/
+/*-----768-----*/
+/*-----414-----*/
+@media screen and (max-width: 414px) {
+  section {
+    padding-top: 30px;
+  }
+
+  section h2 {
+    margin: 0 0 30px;
+    font-size: 24px;
+  }
+
+  .btn-arrow {
+    font-size: 14px;
+  }
+
+  .btn-container.header-cell,
+.address-container.header-cell {
+    display: none;
+  }
+
+  .main-full {
+    padding: 0 15px;
+  }
+
+  header .header-cell i {
+    display: none;
+  }
+
+  header .logo-container {
+    grid-column: span 4;
+  }
+
+  header .feedback-container {
+    grid-column: span 7;
+    text-align: center;
+  }
+
+  header .first-line {
+    height: 80px;
+  }
+
+  .stub {
+    height: 80px;
+  }
+
+  .btn--input {
+    min-width: auto;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #424F65;
+    color: #ffffff;
+    padding: 30px 0 30px;
+  }
+
+  .footer-phone-container .btn {
+    display: none;
+  }
+
+  footer .footer-phone-container {
+    grid-column: 1/span 6;
+  }
+
+  footer .footer-feedback-container {
+    grid-column: 1/span 6;
+  }
+
+  footer .footer-nav-container {
+    display: none;
+  }
+
+  footer .logo-second {
+    display: none;
+  }
+
+  footer .footer-line__last {
+    display: block;
+    padding: 0 15px;
+  }
+  footer .footer-line__last span {
+    display: none;
+  }
+  footer .footer-line__last a {
+    display: block;
+    margin: 0 0 15px;
+  }
+
+  footer .footer-line__first {
+    padding-bottom: 30px;
+  }
+
+  .project-materials-item {
+    grid-column: span 12;
+  }
+
+  .materials-item-info {
+    padding: 30px;
+  }
+
+  .project-detail-description .description-body {
+    display: block;
+  }
+
+  .project-detail-description .project-description-half {
+    width: 100%;
+  }
+
+  .project-detail-slider {
+    margin: 0 0 90px;
+  }
+}
+/*-----414-----*/

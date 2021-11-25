@@ -1,0 +1,46 @@
+.partners__section {}
+
+.partners__section__about {
+  grid-column: span 4;
+}
+
+.partners__section__logos {
+  grid-column: 6/span 7;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.partners__section__logos__item {
+  text-align: center;
+}
+
+.partners__section__logos__link {
+  grid-column: span 4;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 414px) {
+  .partners__section__about {
+    grid-column: span 12;
+    margin: 0 0 30px;
+  }
+
+  .partners__section__logos {
+    margin-left: -15px;
+    width: calc(100% + 30px);
+  }
+
+  .partners__section__logos {
+    grid-column: 1/span 12;
+    grid-gap: 0;
+  }
+
+}

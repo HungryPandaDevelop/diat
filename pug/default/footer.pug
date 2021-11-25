@@ -1,0 +1,53 @@
+footer
+    .footer-line.footer-line__first.main-full
+      .logo
+        a(href="./index.html")
+          img(src="../images/logo-footer.svg")
+    .footer-line.main-grid
+      .footer-phone-container 
+        a.footer-phone(href="#") 8 (495) 225-22-02
+        a.btn(href="#") 
+          span ЗАКАЗАТЬ ЗВОНОК 
+      .footer-feedback-container
+        .footer-feedback-body
+          .footer-address 
+            | 123298, Москва, 3-я Хорошевская улица, дом 18, корпус 1, офис 311
+          .social
+            a(href="#")
+              img(src="../images/social/v-w-2.svg", alt="")
+            a(href="#")
+              img(src="../images/social/i-w-2.svg", alt="") 
+            a(href="#")
+              img(src="../images/social/whatsapp.svg", alt="") 
+            a(href="#")
+              img(src="../images/icons/phone-white.svg", alt="") 
+      .footer-nav-container
+        .footer-nav 
+          h3 УСЛУГИ
+          nav
+            ul
+              each val in ["Проектирование","Авторский надзор"]
+                li  
+                  a(href="#") 
+                    = val
+        .footer-nav 
+          h3 О КОМПАНИИ
+          nav
+            ul
+              each val in ["Отзывы","Достижения","Исследования","Вакансии"]
+                li  
+                  a(href="#") 
+                    = val
+        .footer-nav 
+          h3 СИСТЕМЫ DIAT
+          nav
+            ul
+              each val in ["Портфолио","Новости","Документы","Контакты"]
+                li  
+                  a(href="#") 
+                    = val
+    .footer-line.footer-line__last.main-full
+      span © Copyright 2021 — DIAT Company
+      a(href="#") КАРТА САЙТА
+      a(href="#") ОБРАБОТКА ПЕРСОНАЛЬНЫХ ДАННЫХ
+      img.logo-second(src="../images/logo-2.svg", alt="")

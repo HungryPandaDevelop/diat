@@ -1,0 +1,201 @@
+header {
+  @include positionElement(100%, auto, 0, 0, left, top, 3, block, fixed);
+  font-size: $smallSize;
+  font-family: "medium";
+  color: $whiteColor;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .main-grid {
+    height: 100%;
+    position: relative;
+  }
+
+  .header-cell {
+    display: flex;
+
+
+    .header-body,
+    i {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .header-body {
+      width: calc(100% - 50px);
+    }
+
+    i {
+      margin-right: 20px;
+    }
+
+    .header-cell-body {
+      width: 100%;
+      margin: auto 0;
+    }
+  }
+
+  .first-line {
+    height: 120px;
+  }
+
+  .second-line {
+    height: 80px;
+    background-color: $whiteColor;
+  }
+
+
+
+  .nav {
+    grid-column: 3/span 10;
+    font-size: $standartSize;
+  }
+
+  .logo-container {
+    grid-column: span 2;
+  }
+
+  .address-container {
+    grid-column: span 3;
+  }
+
+  .time_work-container {
+    grid-column: span 2;
+  }
+
+  .feedback-container {
+    grid-column: span 2;
+
+    a {
+      margin: 0 0 5px;
+    }
+  }
+
+  .btn-container {
+    grid-column: span 3;
+    text-align: right;
+
+    img {
+      margin-left: 15px;
+      width: 58px;
+    }
+
+    * {
+      vertical-align: middle;
+    }
+  }
+
+  nav {
+    display: flex;
+  }
+}
+
+.hamburger-container.header-cell {
+  display: none;
+}
+
+.header-black {
+  .first-line {
+    background-color: $blackColor;
+  }
+
+  .second-line {
+    color: $blackColor;
+    border-bottom: 1px solid $grayColor;
+  }
+}
+
+nav {
+
+
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  ul {
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+  }
+
+
+  li {
+    display: inline-block;
+    margin-right: 60px;
+
+    a {
+      text-decoration: none;
+      font-family: inherit;
+
+    }
+  }
+
+}
+
+
+.stub {
+  height: 200px;
+}
+
+
+
+.logo {
+
+  position: relative;
+  display: flex;
+
+  a {
+    margin: auto 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: 120px;
+  }
+}
+
+
+
+
+
+
+.user-ico {
+  @include icoEl(20px, 20px, "../images/icons/user-color.svg");
+}
+
+.marker-ico {
+  @include icoEl(24px, 24px, "../images/icons/marker.svg");
+}
+
+.phone-ico {
+  @include icoEl(20px, 20px, "../images/icons/phone.svg");
+}
+
+.time_work-ico {
+  @include icoEl(20px, 20px, "../images/icons/time_work.svg");
+}
+
+.mail-ico {
+  @include icoEl(20px, 20px, "../images/icons/mail.svg");
+}
+
+.loop-btn {
+  @include icoEl(20px, 20px, "../images/icons/loop-white.svg");
+}
+
+.basket-btn {
+  @include icoEl(25px, 20px, "../images/icons/basket-white.svg");
+}
+
+.hamburger-btn {
+  @include icoEl(20px, 21px, "../images/controls/hamburger-white.svg");
+}

@@ -1,0 +1,53 @@
+.reviews-item {
+  grid-column: span 6;
+  display: flex;
+  font-size: $smallSize;
+  margin: 0 0 60px;
+
+  a {
+    display: block;
+    width: 30%;
+  }
+
+  .reviews-img {
+    position: relative;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .reviews-plus {
+    @include positionElement(55px, 55px, 50%, 50%);
+    @include bgImageEl("../images/icons/plus-black.svg");
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+  }
+
+
+  .reviews-info {
+    margin-left: 30px;
+    width: 70%;
+
+  }
+
+  h3 {
+    font-family: "medium";
+    font-size: $mediumSizePlus;
+    margin: 0 0 25px;
+
+  }
+
+  h4 {
+    font-family: "medium";
+    font-size: $standartSizePlus;
+    margin: 0 0 25px;
+  }
+
+  .data {
+    font-size: $smallSize;
+    color: $greenColor;
+    margin: 0 0 35px;
+  }
+}

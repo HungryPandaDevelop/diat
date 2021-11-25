@@ -1,0 +1,5 @@
+.project-detail-slider {
+  height: 600px;
+  grid-column: span 6;
+  outline: 1px solid red;
+}

@@ -1,0 +1,128 @@
+//@import "../content-parts/comment-all/_mw414.scss";
+section {
+  padding-top: 30px;
+}
+
+section h2 {
+  margin: 0 0 30px;
+  font-size: 24px;
+}
+
+.btn-arrow {
+  font-size: 14px;
+}
+
+.btn-container.header-cell,
+.address-container.header-cell {
+  display: none;
+}
+
+.main-full {
+
+  padding: 0 15px;
+}
+
+header .header-cell i {
+  display: none;
+}
+
+header .logo-container {
+  grid-column: span 4;
+}
+
+header .feedback-container {
+  grid-column: span 7;
+  text-align: center;
+}
+
+header .first-line {
+  height: 80px;
+}
+
+.stub {
+  height: 80px;
+}
+
+
+
+
+
+
+.btn--input {
+  min-width: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #424F65;
+  color: #ffffff;
+  padding: 30px 0 30px;
+}
+
+.footer-phone-container {
+  .btn {
+    display: none;
+  }
+}
+
+footer .footer-phone-container {
+  grid-column: 1/span 6;
+}
+
+footer .footer-feedback-container {
+  grid-column: 1/span 6;
+}
+
+footer .footer-nav-container {
+  display: none;
+}
+
+footer .logo-second {
+  display: none;
+}
+
+footer .footer-line__last {
+  display: block;
+  padding: 0 15px;
+
+  span {
+    display: none;
+  }
+
+  a {
+    display: block;
+    margin: 0 0 15px;
+  }
+}
+
+footer .footer-line__first {
+  padding-bottom: 30px;
+}
+
+
+.project-materials-item {
+  grid-column: span 12;
+}
+
+.materials-item-info {
+  padding: 30px;
+}
+
+.project-detail-description .description-body {
+  display: block;
+}
+
+.project-detail-description .project-description-half {
+  width: 100%;
+}
+
+.project-detail-slider {
+  margin: 0 0 90px;
+}

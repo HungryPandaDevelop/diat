@@ -1,0 +1,15 @@
+section.projects__section 
+	.main-full
+		h2 РЕАЛИЗОВАННЫЕ ПРОЕКТЫ
+		.projects__section__owl.owl-carousel
+			each val,index in ["HAYAT HOUSE","ЖИЛОЙ КОМПЛЕКС «ВЕСТЕРДАМ»","КЛУБНЫЙ ДОМ «ДОМ У НЕВСКОГО»","HAYAT HOUSE","ЖИЛОЙ КОМПЛЕКС «ВЕСТЕРДАМ»","КЛУБНЫЙ ДОМ «ДОМ У НЕВСКОГО»"]
+				.projects__section__item
+					.projects__section__container
+						h3= val
+						.projects__section__img 
+							img(src="../images/temp/project-"+1+".jpg", alt="")
+						a.btn.btn--white(href="#") 
+							span Подробнее 
+	.btn-container 
+		a.btn.btn--white(href="#") 
+			span Все проекты

@@ -1,0 +1,18 @@
+section.reviews-form.main-full
+	h2 ОСТАВИТЬ ОТЗЫВ
+	form.form
+		label Ваше имя
+		input(type="text" placeholder="ФИО")
+		label Ваша почта
+		input(type="text" placeholder="Email")
+		label Ваше сообщение
+		textarea(type="text" placeholder="Сообщение")
+		input(type="file" data-textchoise="Загрузить изображение").input-file
+		.checkbox-container
+			.checkbox
+				label Я даю свое согласие на обработку персональных данных
+					input(type="checkbox" checked)
+					span
+		.btn-container
+			.btn
+				input.btn--input.btn--input--white(type="submit" value="Отправить")

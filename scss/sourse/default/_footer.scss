@@ -1,0 +1,115 @@
+.footer-stub {
+  height: 60px;
+}
+
+footer {
+  background-color: $blackColor;
+  color: $whiteColor;
+  padding: 50px 0 60px;
+
+  .logo {
+    img {
+      max-width: 300px;
+    }
+  }
+
+  .logo-second {
+    margin-top: -30px;
+  }
+
+  .footer-line__first {
+    padding-bottom: 75px;
+  }
+
+  .footer-phone-container {
+    grid-column: 2/span 2;
+  }
+
+  .footer-phone {
+    font-family: "medium";
+    font-size: $standartSizePlus;
+    text-decoration: none;
+    margin: 0 0 15px;
+  }
+
+  .footer-feedback-container {
+    grid-column: span 3;
+
+
+
+    .footer-feedback-body {
+      margin: 0 auto 30px;
+      max-width: 170px;
+    }
+
+    .footer-address {
+      line-height: 2;
+      margin-bottom: 30px;
+      font-size: $smallSize;
+    }
+  }
+
+  .footer-nav-container {
+    grid-column: span 5;
+    display: flex;
+    justify-content: space-between;
+    font-size: $smallSize;
+
+    h3 {
+      color: inherit;
+      font-size: inherit;
+      font-family: "medium";
+      margin: 0 0 10px;
+    }
+
+    ul,
+    li {
+      display: block;
+    }
+
+    li {
+      margin: 0 0 10px;
+    }
+
+    a {
+      position: relative;
+
+      &:after {
+        content: "";
+        transition: ease-out 0.5s;
+        opacity: 0;
+        visibility: hidden;
+
+        @include positionElement(47px, 8px, calc(100% + 15px), 6px);
+        @include bgImageEl("../images/controls/arrow-gradient.svg", contain);
+      }
+
+      &:hover {
+        background: $mainGradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &:after {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(3px);
+        }
+
+      }
+
+    }
+
+  }
+
+  .footer-line__last {
+    display: flex;
+    justify-content: space-between;
+    font-size: $smallSize;
+    padding-top: 75px;
+
+    a {
+      font-family: "medium";
+      text-decoration: none;
+    }
+  }
+}

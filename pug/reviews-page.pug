@@ -1,0 +1,49 @@
+doctype html
+html
+	body
+		// head start
+		include default/head.pug 
+		// head end
+
+		// header start
+		include default/header.pug
+		// header end
+		.stub 
+		.main-full 
+			.breadcrumbs
+				a(href="#")  Главная 
+				i >
+				span Отзывы
+		.main-full
+			h1 ОТЗЫВЫ
+		// project-detail start
+		.main-full
+			.btn-container 
+				a.btn.btn--white(href="#") 
+					span ОСТАВИТЬ ОТЗЫВ
+
+		section.reviews-list
+			.main-grid
+				- for(var x = 0; x < 4; x++)
+					include reviews-page/reviews-item.pug
+			.main-full
+				hr
+			// pagination-component start
+			.pagination
+				a(href="#").pagination-prev.disabled
+				a.active(href="#") 1 
+				a(href="#") 2 
+				a(href="#") 3 
+				a(href="#").dotted ...
+				a(href="#") 20
+				a(href="#").pagination-next
+			// pagination-component start
+		// project-detail end
+
+		// reviews-form start
+		include reviews-page/reviews-form.pug
+		// fooreviews-form  end  
+
+		// footer start
+		include default/footer.pug
+		// footer end  

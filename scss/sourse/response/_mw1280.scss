@@ -1,0 +1,35 @@
+.main-grid {
+  grid-column-gap: 10px;
+
+  padding: 0 15px;
+}
+
+header .nav {
+  grid-column: 2/span 11;
+  font-size: 16px;
+}
+
+header .header-cell i {
+  margin-right: 10px;
+}
+
+header .logo-container {
+  grid-column: span 1;
+}
+
+header .feedback-container {
+  grid-column: span 3;
+}
+
+header .btn-container img {
+  margin-left: 15px;
+  width: 48px;
+}
+
+.section-about .about-col-4 {
+  grid-column: span 5;
+}
+
+.address-list__img {
+  width: 140px;
+}

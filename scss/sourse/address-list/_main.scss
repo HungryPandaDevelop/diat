@@ -1,0 +1,57 @@
+.address-list {
+  padding-bottom: 60px;
+}
+
+.address-list__all {
+  grid-column: span 6;
+}
+
+.address-list__map {
+  grid-column: span 6;
+
+}
+
+.address-list__item {
+  text-transform: uppercase;
+  margin: 0 0 30px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.address-list__img {
+  width: 190px;
+  display: inline-block;
+  margin-right: 15px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.address-list--no_img {
+  display: inline-flex;
+  background-color: $blackColor;
+  height: 100px;
+
+  img {
+    width: auto;
+    margin: auto;
+  }
+}
+
+.address-list__info {
+  display: inline-block;
+  vertical-align: top;
+
+  h3 {
+
+    padding: 5px 0 15px;
+    font-size: $standartSize;
+  }
+}
+
+.address-list__map .map-container {
+  height: 100%;
+}

@@ -1,0 +1,75 @@
+doctype html
+html
+	body
+		// head start
+		include default/head.pug 
+		// head end
+
+		// header start
+		include default/header.pug
+		// header end
+		.stub 
+		.main-full 
+			.breadcrumbs
+				a(href="#")  Главная  
+				i >
+				span Отзывы
+		.main-full
+			h1 Главный офис ООО ГК "ДИАТ"
+		// address-detail start
+		.address-detail__main.main-grid
+			.address-detail__img
+				img(src="../images/temp/detail-slider-1.jpg", alt="")
+			.address-detail__info
+				h3 123298, РФ - Москва
+					br
+					|ул. 3-я Хорошевская, д.18, корпус 1
+				.address-detail__feedback
+					.address-detail__phones
+						i.phone-ico
+						ul.ln.address-phones
+							li
+								a(href="#") 8 (800) 725-22-02
+							li
+								a(href="#") 8 (495) 225-22-02 
+					.address-work_time
+						i.time_work-ico
+						a(href="#") Пн-Пт: 9:00 — 18:00 
+					.address-mail
+						i.mail-ico
+						a(href="#") office@diat.ru 
+
+			.address-detail__description
+				b ООО ГК "ДИАТ"
+				ul.ln
+					li Юридический адрес: 123298, г. Москва, 3-я Хорошевская ул., дом 18, корп.1, офис 311,
+					li Почтовый адрес : 123298, г. Москва, 3-я Хорошевская ул., д. 18, корп. 1.,
+					li ИНН 7743167267, КПП 774301001ОГРН 1167746741348,
+					li ОКПО 49869867ОКВЭД 46.13 – осн, 25.11, 74.90 – доп.,
+					li р/счет 40702810038000028433 в ПАО СБЕРБАНК гор. Москва,
+					li к/счет 30101810400000000225, БИК 044525225.
+		.main-full
+			.map-container 
+				.contacts-address-points
+					.contacts-address-line(
+						id="address-0"
+						data-coord-x="55.6"
+						data-coord-y="37.6" 
+						data-index="0"	
+					)
+						.address
+							.metro Магазин
+							.text-address м. Китай-город, Лубянский пр., 15, стр. 4
+						.phone-feedback
+							div +7 (499) 938-83-51
+				.map-container 
+					#map
+				script(src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&amp;apikey=AAyE0FsBAAAApZ_zfwIA_dXSEkWE4_EY3eJc0MxKY2DPitcAAAAAAAAAAADTxJqFLJMxqfrjbNVz6ghuLNJ4tw" type="text/javascript")
+				script(src="../js/ya-map.js")
+		// address-detail end
+
+
+
+		// footer start
+		include default/footer.pug
+		// footer end  

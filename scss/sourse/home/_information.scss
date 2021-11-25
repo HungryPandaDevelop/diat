@@ -1,0 +1,45 @@
+.home__information__item {
+  margin-bottom: 90px;
+
+  h3 {
+    font-size: $standartSizePlusPlus;
+    text-transform: uppercase;
+    font-family: "medium";
+    margin: 0 0 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+}
+
+.home__information__img {
+  grid-column: span 6;
+
+  img {
+    width: 100%;
+  }
+}
+
+.home__information__text {
+  grid-column: span 4;
+}
+
+.home__information__stub {
+  grid-column: span 1;
+}
+
+@media screen and (max-width: 414px) {
+
+  .home__information__img,
+  .home__information__text {
+    grid-column: span 12;
+  }
+
+
+  .home__information__stub {
+    display: none;
+  }
+}

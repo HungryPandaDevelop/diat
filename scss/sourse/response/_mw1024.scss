@@ -1,0 +1,95 @@
+.time_work-container.header-cell {
+  display: none;
+}
+
+.second-line {
+  display: none;
+}
+
+.stub {
+  height: 120px;
+}
+
+.hamburger-container.header-cell {
+  display: flex;
+}
+
+header .logo-container {
+  grid-column: span 2;
+}
+
+header .btn-container img {
+  display: none;
+}
+
+.poster-section .poster-bg {
+  width: 45%;
+  left: 55%;
+}
+
+.consultation-about {
+  grid-column: span 12;
+}
+
+.consultation-form {
+  grid-column: 1/span 12;
+}
+
+.project-detail-slider {
+  grid-column: span 12;
+  padding: 0 60px;
+}
+
+.project-detail-info {
+  grid-column: span 12;
+  padding: 0;
+
+}
+
+.materials-item-description {
+  padding: 30px;
+}
+
+.project-materials-item {
+  grid-column: span 6;
+}
+
+.news-list-item {
+  grid-gap: 0 15px;
+
+  .news-info {
+    grid-column: span 9;
+  }
+
+  .news-date {
+    margin: 0;
+  }
+
+  .news-text {
+    font-size: 13px;
+    grid-column: 4 /span 9;
+  }
+}
+
+.contacts-info {
+  grid-column: span 6;
+  min-height: 560px;
+}
+
+.contacts-feedback {
+  grid-gap: 4px;
+}
+
+.contacts-feedback a {
+  text-decoration: none;
+  font-family: "medium";
+  font-size: 14px;
+}
+
+footer .footer-nav-container {
+  grid-column: span 6;
+}
+
+footer .footer-nav-container a:after {
+  display: none;
+}

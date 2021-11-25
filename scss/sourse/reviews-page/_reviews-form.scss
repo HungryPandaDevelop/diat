@@ -1,0 +1,25 @@
+.reviews-form {
+  background-color: $whiteColor;
+  padding: 90px 30px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .form {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  label {
+    font-family: "medium";
+    margin: 0 0 10px;
+    display: block;
+  }
+
+  input:not(.btn--input),
+  textarea,
+  .file-input-container {
+    margin: 0 0 15px;
+  }
+}

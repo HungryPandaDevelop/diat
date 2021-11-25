@@ -1,0 +1,46 @@
+doctype html
+html
+	body
+		// head start
+		include default/head.pug 
+		// head end
+
+		// header start
+		include default/header.pug
+		// header end
+		.stub 
+		.main-full 
+			.breadcrumbs
+				a(href="#")  Главная 
+				i >
+				a(href="#")  Портфолио
+				i >
+				span Жилой дом X
+		// project-detail start
+
+		.main-full
+			h1 ЖИЛОЙ КОМПЛЕКС «ВЕСТЕРДАМ»
+			
+		// main start
+		include detail-project/main.pug
+		// main end
+		
+		// materials start
+		include detail-project/materials.pug
+		// materials end
+
+		// section-7 start
+		include home/projects__section.pug
+		// section-7 end   
+		
+		// section-8 start
+		include home/partners__section.pug
+		// section-8 end   
+					
+		// project-detail end
+
+
+
+		// footer start
+		include default/footer.pug
+		// footer end  

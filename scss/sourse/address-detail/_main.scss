@@ -1,0 +1,85 @@
+.address-detail__main {
+  margin-bottom: 90px;
+}
+
+.address-detail__img {
+  grid-column: span 4;
+
+  img {
+    width: 100%;
+  }
+}
+
+.address-detail__info {
+  grid-column: span 4;
+
+  h3 {
+    font-size: $standartSizePlus;
+    margin: 0 0 60px;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  .phone-ico {
+    vertical-align: super;
+  }
+
+  .address-phones {
+    font-size: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 20px;
+
+
+
+    li {
+      margin: 0 0 10px;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: "medium";
+      color: $grayColor;
+    }
+  }
+
+  .address-mail,
+  .address-work_time {
+    font-family: "medium";
+    margin: 0 0 15px;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  .address-work_time {
+    font-size: $smallSize;
+    text-transform: uppercase;
+
+  }
+
+  .address-mail {
+
+    color: $grayColor;
+  }
+
+}
+
+
+.address-detail__description {
+  grid-column: span 4;
+  line-height: 1.6;
+
+  b {
+    text-transform: uppercase;
+  }
+}
+
+
+.map-container {
+  height: 560px;
+  margin: 0 0 120px;
+}
