@@ -11,7 +11,7 @@ input.btn,
   // max-width: 180px;
   // width: 100%;
   text-transform: uppercase;
-
+  text-transform: uppercase;
   background: $mainGradient;
 
   span {
@@ -45,6 +45,8 @@ input.btn,
   cursor: pointer;
   transition: ease-out 0.5s;
   min-width: 180px;
+  font-family: "medium";
+  text-transform: uppercase;
 
 
   &:hover {
